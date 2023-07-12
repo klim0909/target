@@ -1,0 +1,405 @@
+@media (max-width: 639px) and (orientation: landscape){
+    .trends{
+        position: static;
+        height: auto;
+    }
+    .trends-post{
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;  
+           
+    }
+    .post:nth-child(1){
+        width: calc(50% - 3px);
+        margin-right: 3px;
+        margin-bottom: 3px;
+    }
+    .post:nth-child(2){
+        width: 50%;
+        margin: 0%;
+        margin-bottom: 3px;
+    }
+    .post:nth-child(3){
+        width: calc(50% - 3px);
+        margin-right: 3px;
+    }
+    .post:nth-child(4){
+        width: 50%;
+        margin: 0%;
+    }
+    .trends-title{
+        font-size: 4.44vw;
+    }
+    .trend-txt{
+        border: 0.555vw solid #b59f5b;
+        margin: auto;
+        padding: 0;
+    }
+    .trend-title{
+        font-size: 2.96vw;
+    }
+    .tablet-photo{
+        display: none;
+    }
+    .desk-photo{
+        display: none;
+    }
+}
+
+
+@media(max-width: 639px){
+    body{
+        margin: 0;
+        width: 100vw;
+    }
+    .header{
+        width: 100vw;
+        height: 639px;
+    }
+    header{
+        background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/banner-mobile.jpg?raw=true");
+    }
+    .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding: 0%;
+    }
+    .header-nav{
+        display: flex;
+        width: 100vw;
+        flex-direction: column-reverse;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 40px;
+    }
+    .btn-close{
+        display: flex;
+        margin-bottom: 185px;
+        margin-top: 30px;
+        margin-right: 15px;
+    }
+    .block-close{
+        margin-left: auto;
+    }
+    .close{
+        background-color: white;
+        margin-bottom: 5px;
+        width: 6.94vw;
+        height: 4px;
+        z-index: 3;
+        position: relative;
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-menu-list{
+        display: none;
+    }
+    .header-navigation{
+        display: flex;
+    }
+    
+    .header-logo{
+        display: flex;
+    }
+    .logo{
+        display: flex;
+        width: 75vw;
+        padding: 0;
+        margin: auto;
+    }
+    .header-title{
+        display: flex;
+        font-size: 7.22vw;
+        margin-bottom: 124px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 220px;
+    }
+    .trends{
+        position: static;
+        height: auto;
+        margin-bottom: 45px;
+    }
+    .trends-title{
+        font-size: 4.44vw;
+    }
+    .trend-txt{
+        border: 0.555vw solid #b59f5b;
+    }
+    .trends-post{
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;     
+    }
+    .post{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        margin: 0;
+        margin-bottom: 3px;
+    }
+    .trend-title{
+        font-size: 5.27vw;
+    }
+    .torso{
+        flex-direction: column;
+        width: 100vw;
+        margin: 0;
+        align-items: center;
+    }
+    .posts{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        width: 100vw;
+        margin-top: 0;
+    }
+    .all-posts{
+        width: 100vw;
+        margin: auto;
+    }
+    .posts:nth-child(6){
+        display: none;
+    }
+    .posts:nth-child(7){
+        display: none;
+    }
+    .posts::after{
+        content: "";
+        width: 91.66vw;
+        display: block;
+        height: 4px;
+        background-color: #eeeeee;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    .posts::after:nth-child(7n){
+        display: none;
+    }
+    .photo{
+        display: flex;
+        width: 91.66vw;
+    }
+    .article-title{
+        display: flex;
+        flex-direction: column;
+        width: 91.65vw;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+        margin-top: 13px;
+    }
+    .top-title{
+        font-size: 5vw;
+    }
+    .post-tags-link{
+        margin-top: 15px;
+        font-size: 4.30vw; 
+    }
+    .copyright{
+        margin: 0;
+    }
+    .date{
+        font-size: 3.75vw;
+    }
+    .author{
+        font-size: 3.75vw;
+    }
+    .text{
+        width: 91.66vw;
+        font-size: 3,88vw;
+    }
+    .side{
+        width: 91.66vw;
+        margin: auto;
+    }
+    .posts-search-title{
+        font-size: 4.44vw;
+    }
+    .posts-search-title::after{
+        width:18.33vw;
+    }
+    .posts-search-item{
+        width: 91.66vw;
+       margin-bottom: 22px; 
+    }
+    .posts-search-image {
+        width: 19.44vw;
+      }
+      .posts-search-content{
+        width: 66.66vw;
+        height: 70px;
+      }
+    .posts-search-date{
+        font-size: 3.75vw;
+      }
+    .posts-search-subtitle{
+        font-size: 4.30vw;
+      }
+      .posts-search-form {
+        width: 91.66vw;
+        margin-bottom: 45px;
+        height: 48px;
+      }
+      .posts-search-input{
+        width: 77.77vw;
+        font-size: 4.02vw;
+      }
+      .posts-search-button{
+        width: 13.88vw;
+      }
+      .visually-hidden{
+        margin:auto;
+      }
+      .search-photo{
+        width: 5.27vw;
+      }
+      .subscribe-form-input{
+        width: calc(91.66vw - 18px);
+        height: 48px;
+        padding-left: 18px;
+      }
+      .subscribe-form-button{
+        width: 91.66vw;
+        font-size: 4.30vw;
+        height: 48px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 42px;
+    }
+      .tags-list{
+        width: 91.66vw;
+      }
+      .tags-list-item{
+        font-size: 3.75vw;
+      }
+      .categories-item{
+        width:  91.66vw;
+      }
+      .categories-link{
+        font-size: 4.30vw;
+        font-size: 4.027vw;
+      }
+    .shop{
+        width: 100vw;
+    }
+    .tablet-photo{
+        display: none;
+    }
+    .desk-photo{
+        display: none;
+    }
+
+    .shop-titel{
+        font-size: 4.44vw;
+    }
+    .shop-list{
+        display: flex;
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 35px;
+        margin-right: 0;
+    }
+    .shop-titel::after{
+        width: 18.33vw;
+    }
+    .shop-item-title{
+        font-size: 5.27vw;
+    }
+    .shop-text{
+        font-size: 4.16vw;
+    }
+    .shop-info{
+        margin-top: 260px;
+        margin-right: 20px;
+        margin-left: -30px;
+        padding-left: 26px;
+        
+        
+   }
+   .price{
+        font-size: 4.30vw;
+    }
+    .discount{
+        font-size: 6.25vw;
+    }
+    .shop-button-btn{
+        width: 38.88vw;
+    }
+    .shop-button-text{
+        font-size: 4.30vw;
+    }
+    .shop-item{
+        margin: 0;
+        width: 91.66vw;
+        margin-bottom: 30px;
+    }
+    .shop-photo{
+        min-height: 285px;
+        width: 79.16vw;
+    }
+
+
+
+
+    footer{
+        width: 97vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .social-network-icon{
+        width: 5.27vw;
+        height: 5.27vw;
+        background-size: 5.55vw;
+    }
+    .signature {
+        font-size: 3.75vw;
+    }
+    .pop-up_hidden{
+        width: 91.66vw;
+        left: 4%;
+        right: 4%;
+        top: 6%;
+        margin-bottom: 30px;
+        display: none;
+      }
+      .pop-up-titel{
+        font-size: 4.44vw;
+      }
+      .pop-up-titel::after{
+        width: 18.33vw;
+      }
+      .select-label{
+        font-size: 4.16vw;
+      }
+      .select{
+        font-size: 4.16vw;
+        width: 77.77vw;
+      }
+      .radio-mailing{
+        width: 77.77vw;
+        font-size: 4.16vw;
+      }
+      .pop-label{
+        width: 77.77vw;
+      }
+      .pop-input-label{
+        width: 77.77vw;
+      }
+      .pop-hidden{
+        font-size: 4.16vw;
+      }
+      .pop-button{
+        width: 77.77vw;
+        font-size: 4.16vw;
+      }
+      .close-pop{
+        width: 7vw;
+      }
+}

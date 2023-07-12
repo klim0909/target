@@ -1,0 +1,176 @@
+@media (min-width: 1200px){
+    
+    body{
+        width: 100vw;
+    }
+    header{
+        width: 100vw;
+    }
+    .header-wrapper {
+        width: 100vw;
+    }
+    .logo{
+        width: 11.25vw;
+    }
+    .header-menu-link{
+        font-size: 0.8vw;
+    }
+    .header-title{
+        font-size: 3.1vw;
+    }
+    .trends-title{
+        font-size: 1.375vw;
+    }
+    .trend-txt{
+        border: 0.125vw solid #b59f5b;
+    }
+    .trend-title{
+        font-size: 1.375vw;
+    }
+    .torso{
+        justify-content: space-evenly;
+        width: 99vw;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .article-title{
+        width: 70vw;
+    }
+    .photo{
+        width: 23.75vw;
+    }
+    .top-title{
+        font-size: 1.375vw;
+    }
+    .post-tags-link{
+        font-size: 0.9vw; 
+    }
+    .date{
+        font-size: 0.8vw;
+    }
+    .author{
+        font-size: 0.8vw;
+    }
+    .text{
+        width: 27vw;
+        font-size: 0.9vw;
+    }
+    .side{
+        width: 16.875vw;
+    }
+    .posts-search-title{
+        font-size: 0.875vw;
+    }
+    .posts-search-title::after{
+        width: 4.125vw;
+    }
+    .posts-search-item {
+        width: 16.875vw;
+    }
+    .posts-search-image{
+        width: 4.375vw;
+    }
+    .posts-search-content {
+        width: 16.875;
+    }
+    .posts-search-date {
+        font-size: 0.812vw;
+    }
+    .posts-search-subtitle{
+        font-size: 0.875vw;
+    }
+    .posts-search-form{
+        width: 16.875vw;
+    }
+    .posts-search-input{
+        width: 12.625vw;
+        font-size: 0.875vw;
+    }
+    .posts-search-button{
+        width: 3vw;
+    }
+    .search-photo{
+        width: 1.187vw;
+    }
+    .subscribe-form-input{
+        width: 15.625vw;
+    }
+    .subscribe-form-button{
+        width: 16.875vw;
+        font-size: 0.937vw;
+    }
+    .visually-hidden{
+        margin:auto;
+      }
+    .tags-list{
+        width: 16.875vw;
+    }
+    .tags-list-item {
+        font-size: 0.8125vw;
+    }
+    .categories-item {
+        width: 16.875;
+        font-size: 0.875vw;
+    }
+    .categories-link{
+        font-size: 0.937vw;
+    }
+    .shop{
+        width: 99vw;
+        
+    }
+    .tablet-photo{
+        display: none;
+    }
+    .mobile-photo{
+        display: none;
+    }
+    .shop-photo{
+        width: 18.75vw;
+    }
+    .shop-titel{
+        font-size: 1.25vw;
+    }
+    .shop-info{
+         margin-top: 11.25vw;
+    }
+    .shop-titel::after{
+        width: 4.125vw;
+    }
+    .shop-list{
+        width: 90vw;
+        margin: 0;
+        margin-left: 135px;
+    }
+    .shop-item{
+        width: 22vw;
+    }
+    .shop-item-title{
+        font-size: 1.375;
+    }
+    .shop-text{
+        font-size: 0.937vw;
+    }
+    .price{
+        font-size: 0.937vw;
+    }
+    .discount{
+        font-size: 1.375vw;
+    }
+    .shop-button-btn{
+        width: 8.75vw;
+    }
+    .shop-button-text{
+        font-size: 0.968vw;
+    }
+    footer{
+        width: 73.125vw;
+    }
+    .social-network-icon{
+        width: 1.5vw;
+        background-size: 1.25vw;
+    }
+    .signature{
+        font-size: 0.812vw;
+    }
+}

@@ -1,0 +1,666 @@
+@media only screen and (min-device-width: 641px) and (max-device-width: 1199px) and (orientation:landscape){
+    .trends{
+        position: static;
+        height: auto;
+    }
+    .trends-post{
+        width: 100vw;
+        margin: 0;
+        display: flex;
+        flex-wrap: nowrap;    
+    }
+    .post{
+        display:flex;
+        width: 25%;    
+        height: auto;
+        margin-right: 4px;
+      }
+      .post:nth-child(4){
+        margin: 0;
+      }
+    .tends-title{
+        font-size: 2.33vw;
+    }
+    .trend-txt{
+        border: 0.38vw solid #b59f5b;
+        margin: auto;
+        padding: 0;
+        margin-bottom: 20px;
+        padding: auto;
+        padding-top: 0;
+        padding-left: 5px;
+    }
+    .trend-title{
+        font-size: 1.7vw;
+    }
+    body{
+        width: 100vw;
+    }
+    .header{
+        width: 100vw;
+        height: 393px;
+    }
+    header{
+        background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/banner-bg-tablet.jpg?raw=true");
+    }
+    .header-wrapper {
+        width: 100vw;
+        padding: 0%;
+        
+    }
+    .btn-close{
+        display: flex;
+    }
+    .block-close{
+        margin-left: auto;
+    }
+    .close{
+        background-color: white;
+        margin-bottom: 5px;
+        width: 2.987vw;
+        height: 4px;
+        z-index: 3;
+        position: relative;
+    }
+    .header-navigation{
+        display: flex;
+    }
+    .header-nav{
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 40px;
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-menu-list{
+        display: none;
+    }
+    .header-logo{
+        display: flex;
+    }
+    .logo{
+        display: flex;
+        width: 20.779vw;
+        padding: 0;
+    }
+    .header-title{
+        font-size: 5.844vw;
+        margin-bottom: 124px;
+        text-align: center;
+    }
+    .torso{
+        justify-content: center;
+        width: 100vw;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .posts{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        width: 50.649vw;
+        margin-top: 0;
+    }
+    .posts:nth-child(6){
+        display: none;
+    }
+    .posts:nth-child(7){
+        display: none;
+    }
+    .posts::after{
+        content: "";
+        width: 50.649vw;
+        display: block;
+        height: 4px;
+        background-color: #eeeeee;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .posts::after:nth-child(7n){
+        display: none;
+    }
+    .all-posts{
+        width: 50.649vw;
+        margin-right: 35px;
+    }
+    .photo{
+        display: flex;
+        width: 50.649vw;
+    }
+    .article-title{
+        display: flex;
+        flex-direction: column;
+        width: 50.648vw;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+        margin-top: 13px;
+    }
+    .top-title{
+        font-size: 2.467vw;
+    }
+    .post-tags-link{
+        font-size: 1.41vw; 
+    }
+    .copyright{
+        margin: 0;
+    }
+    .date{
+        font-size: 1.753vw;
+    }
+    .author{
+        font-size: 1.753vw;
+    }
+    .text{
+        width: 50vw;
+        font-size: 1.948vw;
+    }
+    .side{
+        width: 35.064vw;
+        margin: 0;
+    }
+    .posts-search-title{
+        font-size: 1.818vw;
+    }
+    .posts-search-title::after{
+        width: 8.571vw;
+    }
+    .posts-search-item{
+        width: 35.064vw;
+        
+       margin-bottom: 22px; 
+    }
+    .posts-search-image {
+        width: 9.09vw;
+      }
+    .posts-search-content{
+        width: 35vw;
+        height: auto;
+      }
+    .posts-search-date{
+        font-size: 1.753vw;
+      }
+    .posts-search-subtitle{
+        font-size: 2vw;
+      }
+      .posts-search-form {
+        width: 35.064vw;
+      }
+      .posts-search-input{
+        width: 26.233vw;
+        font-size: 1.883vw;
+      }
+      .posts-search-button{
+        width: 6.233vw;
+      }
+      .search-photo{
+        width: 2.467vw;
+      }
+      .subscribe-form-input{
+        width: 32.467vw;
+        height: 48px;
+      }
+      .subscribe-form-button{
+        width: 35.064vw;
+        font-size: 1.948vw;
+        height: 48px;
+      }
+      .visually-hidden{
+        margin:auto;
+      }
+      .tags-list{
+        width: 35.064vw;
+      }
+      .tags-list-item{
+        font-size: 1.753vw;
+      }
+      .categories-item{
+        width: 35.064vw;
+        font-size: 1.883vw;
+      }
+      .categories-link{
+        font-size: 1.363vw;
+        font-size: 1.949vw;
+      }
+    .shop{
+        width: 100vw;
+    }
+    .shop-titel{
+        font-size: 2.337vw;
+    }
+    .desk-photo{
+        display: none;
+    }
+    .mobile-photo{
+        display: none;
+    }
+    .shop-list{
+        display: flex;
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 35px;
+        margin-right: 0;
+    }
+    .shop-titel::after{
+        width: 8.571vw;
+    }
+    .shop-item-title{
+        font-size: 2.46vw;
+    }
+    .shop-text{
+        font-size: 1.94vw;
+    }
+    .shop-info{
+        margin-top: 23vw;
+        margin-left: -30px;
+        margin-right: 30px;;
+        padding-left: 26px;
+   }
+    .price{
+        font-size: 2vw
+    }
+    .discount{
+        font-size: 2.85vw;
+    }
+    .shop-button-btn{
+        width: 18.18vw;
+    }
+    .shop-button-text{
+        font-size: 2vw;
+    }
+    .shop-item{
+        margin: 0;
+        margin-left: 24px;
+        width: 43.50vw;
+    }
+    .shop-item:nth-child(1){
+        margin-left: -15px;
+    }
+    .shop-item:nth-child(3){
+        margin-right: auto;
+        margin-left: 50px;
+        margin-top: 30px;
+        width: 43.50vw;
+    }
+    .shop-photo{
+        width: 37.66vw;
+    }
+
+    footer{
+        width: 90.519vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .social-network-icon{
+        width: 3.116vw;
+        height: 3.116vw;
+        background-size: 2.59vw;
+    }
+    .signature {
+        font-size: 1.75vw;
+    }
+}
+
+
+
+@media(min-width: 641px) and (max-width: 1199px) and (orientation:portrait){
+    body{
+        width: 100vw;
+    }
+    .header{
+        width: 100vw;
+        height: 393px;
+    }
+    header{
+        background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/banner-bg-tablet.jpg?raw=true");
+    }
+    .header-wrapper {
+        width: 100vw;
+        padding: 0%;
+        
+    }
+    .btn-close{
+        display: flex;
+    }
+    .block-close{
+        margin-left: auto;
+    }
+    .close{
+        background-color: white;
+        margin-bottom: 5px;
+        width: 2.987vw;
+        height: 4px;
+        z-index: 3;
+        position: relative;
+    }
+    .header-navigation{
+        display: flex;
+    }
+    .header-nav{
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 40px;
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-menu-list{
+        display: none;
+    }
+    .header-logo{
+        display: flex;
+    }
+    .logo{
+        display: flex;
+        width: 20.779vw;
+        padding: 0;
+    }
+    .header-title{
+        font-size: 5.844vw;
+        margin-bottom: 124px;
+        text-align: center;
+    }
+    .trends{
+        position: static;
+        height: auto;
+    }
+    .trends-title{
+        font-size: 2.337vw;
+    }
+    .trend-txt{
+        border: 0.125vw solid #b59f5b;
+    }
+    .trends-post{
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;     
+    }
+    .post{  
+        height: auto;
+      }
+    .post:nth-child(1){
+        width: calc(50% - 3px);
+        margin-right: 3px;
+        margin-bottom: 3px;
+    }
+    .post:nth-child(2){
+        width: 50%;
+        margin: 0%;
+        margin-bottom: 3px;
+    }
+    .post:nth-child(3){
+        width: calc(50% - 3px);
+        margin-right: 3px;
+    }
+    .post:nth-child(4){
+        width: 50%;
+        margin: 0%;
+    }
+    .torso{
+        justify-content: center;
+        width: 100vw;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .posts{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        width: 50.649vw;
+        margin-top: 0;
+    }
+    .posts:nth-child(6){
+        display: none;
+    }
+    .posts:nth-child(7){
+        display: none;
+    }
+    .posts::after{
+        content: "";
+        width: 50.649vw;
+        display: block;
+        height: 4px;
+        background-color: #eeeeee;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .posts::after:nth-child(7n){
+        display: none;
+    }
+    .all-posts{
+        width: 50.649vw;
+        margin-right: 35px;
+    }
+    .photo{
+        display: flex;
+        width: 50.649vw;
+    }
+    .article-title{
+        display: flex;
+        flex-direction: column;
+        width: 50.648vw;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+        margin-top: 13px;
+    }
+    .top-title{
+        font-size: 2.467vw;
+    }
+    .post-tags-link{
+        font-size: 2.012vw; 
+    }
+    .copyright{
+        margin: 0;
+    }
+    .date{
+        font-size: 1.753vw;
+    }
+    .author{
+        font-size: 1.753vw;
+    }
+    .text{
+        width: 50vw;
+        font-size: 1.948vw;
+    }
+    .side{
+        width: 35.064vw;
+        margin: 0;
+    }
+    .posts-search-title{
+        font-size: 1.818vw;
+    }
+    .posts-search-title::after{
+        width: 8.571vw;
+    }
+    .posts-search-item{
+        width: 35.064vw;
+        
+       margin-bottom: 22px; 
+    }
+    .posts-search-image {
+        width: 9.09vw;
+      }
+    .posts-search-content{
+        width: 35vw;
+        height: auto;
+      }
+    .posts-search-date{
+        font-size: 1.753vw;
+      }
+    .posts-search-subtitle{
+        font-size: 2vw;
+      }
+      .posts-search-form {
+        width: 35.064vw;
+      }
+      .posts-search-input{
+        width: 26.233vw;
+        font-size: 1.883vw;
+      }
+      .posts-search-button{
+        width: 6.233vw;
+      }
+      .search-photo{
+        width: 2.467vw;
+      }
+      .subscribe-form-input{
+        width: 32.467vw;
+        height: 48px;
+      }
+      .subscribe-form-button{
+        width: 35.064vw;
+        font-size: 1.948vw;
+        height: 48px;
+      }
+      .tags-list{
+        width: 35.064vw;
+      }
+      .tags-list-item{
+        font-size: 1.753vw;
+      }
+      .categories-item{
+        width: 35.064vw;
+        font-size: 1.883vw;
+      }
+      .categories-link{
+        font-size: 1.363vw;
+        font-size: 1.949vw;
+      }
+    .shop{
+        width: 100vw;
+    }
+    .desk-photo{
+        display: none;
+    }
+    .mobile-photo{
+        display: none;
+    }
+    .shop-titel{
+        font-size: 2.337vw;
+    }
+    .shop-list{
+        display: flex;
+        width: 95vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 35px;
+        margin-right: 0;
+    }
+    .shop-titel::after{
+        width: 8.571vw;
+    }
+    .shop-item-title{
+        font-size: 2.46vw;
+    }
+    .shop-text{
+        font-size: 1.94vw;
+    }
+    .shop-info{
+        margin-top: 23vw;
+        margin-left: -30px;
+        margin-right: 30px;;
+        padding-left: 26px;
+   }
+    .price{
+        font-size: 2vw
+    }
+    .discount{
+        font-size: 2.85vw;
+    }
+    .shop-button-btn{
+        width: 18.18vw;
+    }
+    .shop-button-text{
+        font-size: 2vw;
+    }
+    .shop-item{
+        margin: 0;
+        margin-left: 24px;
+        width: 43.50vw;
+    }
+    .shop-item:nth-child(1){
+        margin-left: -15px;
+    }
+    .shop-item:nth-child(3){
+        margin-right: auto;
+        margin-left: 50px;
+        margin-top: 30px;
+        width: 43.50vw;
+    }
+    .shop-photo{
+        width: 37.66vw;
+    }
+
+    footer{
+        width: 90.519vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .social-network-icon{
+        width: 3.116vw;
+        height: 3.116vw;
+        background-size: 2.59vw;
+    }
+    .signature {
+        font-size: 1.75vw;
+    }
+    .pop-up_hidden{
+        width: 50.64vw;
+        left: 25%;
+        right: 25%;
+        top: 25%;
+        bottom: 25%;
+        display: none;
+      }
+      .pop-up-titel{
+        font-size: 1.94vw;
+      }
+      .pop-up-titel::after{
+        width: 7.79vw;
+      }
+      .select-label{
+        font-size: 1.4vw;
+      }
+      .select{
+        font-size: 1.4vw;
+        width: 41.558vw;
+      }
+      .radio-mailing{
+        width: 41.558vw;
+        font-size: 1.6vw;
+      }
+      .pop-label{
+        width: 41.558vw;
+      }
+      .pop-input-label{
+        width: 41.558vw;
+      }
+      .pop-hidden{
+        font-size: 1.6vw;
+      }
+      .pop-button{
+        width: 41.558vw;
+        font-size: 1.55vw;
+      }
+      .close-pop{
+        width: 3.60vw;
+      }
+}
